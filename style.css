@@ -1,0 +1,21 @@
+body {
+    background-image: url('background.png'); /* აქ აუცილებელია ; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* აქრობს სქროლს */
+}
+
+#gameCanvas {
+    display: block; /* აქრობს პატარა დაშორებას ქვემოთ */
+    width: 100vw;
+    height: 100vh;
+}
